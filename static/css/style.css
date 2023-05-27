@@ -391,7 +391,7 @@ top: 1.3rem;
     }
     .about-div {
         height: 159rem;
-        background-image: url(/static/image/b2.jpg);
+        background-image: url(/image/b2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding-top: 7.5rem;
@@ -461,7 +461,7 @@ top: 1.3rem;
     }
     .edu-skills-div {
         height: 148rem;
-        background-image: url(/static/image/foodbg3.jpg);
+        background-image: url(/image/foodbg3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 262%;
@@ -511,7 +511,7 @@ top: 1.3rem;
         right: -10.5rem;
     }
     .project-div {
-        background-image: url(/static/image/b5.jpg);
+        background-image: url(/image/b5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 111.5rem;
