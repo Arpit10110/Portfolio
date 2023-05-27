@@ -10,9 +10,9 @@ const static_path = path.join(__dirname, '../static');
 app.use(express.static(static_path));
 app.use(express.urlencoded());
 //views
-const home=fs.readFileSync("../view/index.html")
-const contact=fs.readFileSync('../view/contact.html');
-const service=fs.readFileSync('../view/service.html');
+const home=fs.readFileSync("./view/index.html")
+const contact=fs.readFileSync('./view/contact.html');
+const service=fs.readFileSync('./view/service.html');
 //end points
 app.get('/', (req, res) => {
     res.end(home);
