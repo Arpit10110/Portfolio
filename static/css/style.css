@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #000000f7;
+    color: white;
+    cursor: default;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:1.48rem
+}
+.nav-div{
+    height: 6rem;
+        background-color: #250828;
+    }
+.a-style:hover{
+     color: rgb(255, 102, 26);
+}
+.a-style{
+    text-decoration: none;
+    color: rgb(2, 234, 255);
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+li{
+    list-style: none;
+}
+.intro-div{
+    font-family: 'Bebas Neue', sans-serif;
+    height: 42.9rem;
+    background-image: url(/image/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-image{
+    width: 36vw;
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+}
+.intro-page1 {
+    font-size: 7rem;
+    color: #ff7a00;
+    position: relative;
+    top: 6rem;
+    left: 5.5rem;
+}
+.intro-page2 {
+    font-size: 4rem;
+    position: relative;
+    top: 5.5rem;
+    color: #ff0b0b;
+    left: 5.5rem;
+}
+.intro-page3{
+    
+    font-size: 2.3rem;
+    color: #26ffb5;
+    position: relative;
+    top: 6.4rem;
+    left: 5.5rem;
+}
+.intro-page4 {
+    font-size: 2.5rem;
+    color: #ff19e9;
+    position: relative;
+    top: 7.6rem;
+    left: 5.5rem;
+    letter-spacing: 0.5rem;
+}
+.dd{
+    color: orange;
+}
+.top-social{
+    width: 4.3vw;
+    margin-left: 2rem;
+}
+.social-intro {
+    position: relative;
+    top: 10rem;
+    left: 3.6rem;
+}
+.about-title {
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: -4rem;
+    color: #26ffb5;
+}
+.intro-me {
+    position: relative;
+    top: 2.4rem;
+    left: 12.5rem;
+    margin-bottom: 5.7rem;
+    font-size: 2.8rem;
+    color: rgb(255, 145, 0);
+}
+.myimage {
+    position: absolute;
+    width: 19rem;
+    right: 5rem;
+    border-radius: 3.5rem;
+    top: 59.3rem;
+}
+.about-div {
+    height: 41rem;
+    background-image: url(/image/b2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5.5rem;
+}
+.about-intro{
+    width: 52rem;
+    position: relative;
+    left: 3.5rem;
+    font-size: 1.59rem;
+}
+.contact-a
+{letter-spacing: 2px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+}
+.cv-a
+{letter-spacing: 2px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+}
+.contact-btn{
+    background-color: #0e0e0ef7;
+    border: 1px solid wheat;
+    padding: 1rem;
+    font-weight: bold;
+    left: 17rem;
+    top: 1.6rem;
+    position: relative;
+    border-radius: 3rem;
+}
+.cv-btn{
+    background-color: #0e0e0ef7;
+    border: 1px solid wheat;
+    padding: 1rem;
+    font-weight: bold;
+    left: 21rem;
+    top: 1.6rem;
+    position: relative;
+    border-radius: 3rem;
+}
+.cv-btn a:hover{
+    color: rgb(0, 208, 255);
+}
+.contact-btn a:hover{
+    color: rgb(0, 208, 255);
+}
+.edu-skills-div{
+    height: 48rem;
+    background-image: url(/image/foodbg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 4rem;
+}
+.edu-skill-title {
+    text-align: center;
+    font-size: 4rem;
+    position: relative;
+    top: -1.6rem;
+    color: #26ffb5;
+}
+.edu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+    font-size: 28px;
+}
+.points{
+    margin-top: 0.79rem;
+   /* color: #87c3ff; */
+   color: skyblue;
+   color: rgb(83, 252, 114);;
+}
+.skill {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* bottom: -10rem; */
+    font-size: 1.8rem;
+    font-weight: bold;
+    top: 106.5rem;
+    right: 13rem;
+}
+.point-s{
+    margin-top: 0.7rem;
+    color: rgb(83, 252, 114);
+}
+.skill-title{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.4rem;
+    color: #ff7a00;
+}
+.edu-title{
+    color: #ff7a00;
+    letter-spacing: 0.4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.img-edu-skill {
+    width: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+    margin: auto;
+    position: relative;
+    top: -23rem;
+}
+.project-div{
+    background-image: url(/image/b5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        height: 42.5rem;
+        padding-top: 4rem;
+}
+.project-head{
+        text-align: center;
+        font-size: 4rem;
+        position: relative;
+        top: -1.6rem;
+        color: #26ffb5;
+    }
+.project-list
+{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    position: relative;
+    left: 14rem;
+    top: -3rem;
+    font-weight: bold;
+}
+.project-a{
+    color:#2aff21;;
+}
+.project-l{
+    color: rgb(245, 88, 140);
+    margin-top: 1.8rem;
+}
+.social{
+    width: 3vw;
+}
+.footer-div{
+    height: 14.6rem;
+    display: flex;
+    font-size: 1.3rem;
+    background-color: black;
+}
+.socialdiv{
+        position: absolute;
+        right: 5rem;
+        margin-top: 11px;
+}
+.socialword{position: relative;
+    top: -17px;
+    left: 16px;
+}
+.socialdiv a{
+    text-decoration: none;
+    color: white;
+}
+.end {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    right: 9rem;
+    font-size: 1.5rem;
+}
+.devloper{
+    position: relative;
+left: 1.8rem;
+font-size: 1.3rem;
+top: 1.3rem;
+}
+
+@media only screen and (max-width: 500px) {
+    *{
+        width: 90.5rem;
+    }
+    .nav{
+        height: 13rem;
+    }
+    .nav-div{
+        height: 13rem;
+    }
+    .a-style{
+        font-size: 3.8rem;
+        width: 73vw;
+        margin-left: 1rem;
+    }
+    .nav-ul{
+        position: relative;
+        top: 5rem;
+        left: 3rem;
+    }
+    #home{
+        position: relative;
+        left: -1.3rem;
+    }
+    #about1{
+        position: relative;
+        left: -2.5rem;
+    }
+    #project1{
+        position: relative;
+        left: -1.68rem;
+    }
+    #service{
+        position: relative;
+        left: -0.68rem;
+    }
+    #contact{
+        position: relative;
+        left: -3.68rem;
+    }
+    .top-image {
+        width: 156vw;
+    top: 23rem;
+    left: 59rem;
+    height: 96vh;
+    }
+    .intro-div {
+        width: 478vw;
+        background-size: contain;
+        height: 62rem;
+    }
+    .intro-page1 {
+        font-size: 9.4rem;
+        color: #ff7a00;
+        position: relative;
+        top: 10.8rem;
+        left: 3.4rem;
+    }
+    .intro-page2 {
+        font-size: 6.6rem;
+        position: relative;
+        top: 10rem;
+        color: #ff0b0b;
+        left: 3.4rem;
+    }
+    .intro-page3 {
+        font-size: 4rem;
+        color: #26ffb5;
+        position: relative;
+        top: 10.7rem;
+        left: 3.4rem;
+    }
+    .intro-page4 {
+        font-size: 4.7rem;
+        color: #ff19e9;
+        position: relative;
+        top: 12.9rem;
+        left: 3.4rem;
+        letter-spacing: 0.5rem;
+    }
+    .top-social {
+        width: 40.3vw;
+        margin-left: 3.7rem;
+    }
+    .social-intro {
+        position: relative;
+        top: 15.8rem;
+        left: 1.5rem;
+    }
+    .about-div {
+        height: 159rem;
+        background-image: url(/static/image/b2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 7.5rem;
+    }
+    .about-title {
+        text-align: center;
+        font-size: 9rem;
+        position: relative;
+        top: -3rem;
+        color: #26ffb5;
+    }
+    .intro-me {
+        position: relative;
+        top: 2.4rem;
+        left: 3.5rem;
+        margin-bottom: 5.7rem;
+        font-size: 5.8rem;
+        color: rgb(255, 145, 0);
+    }
+    .about-intro {
+        width: 82rem;
+        position: relative;
+        left: 3.5rem;
+        font-size: 4rem;
+    }
+    .contact-btn {
+        background-color: #0e0e0ef7;
+        border: 1px solid wheat;
+        padding: 3.7rem;
+        font-weight: bold;
+        left: -33rem;
+        top: -50.4rem;
+        width: 147vw;
+        position: relative;
+        border-radius: 16rem;
+    }
+    .contact-a {
+        letter-spacing: 2px;
+        font-size: 55px;
+        text-decoration: none;
+        color: rgb(255, 145, 0);
+    }
+    .cv-btn {
+        background-color: #0e0e0ef7;
+        border: 1px solid wheat;
+        padding: 3.7rem;
+        font-weight: bold;
+        top: -41.4rem;
+        left: 7rem;
+        width: 147vw;
+        position: relative;
+        border-radius: 18rem;
+    }
+    .cv-a {
+        letter-spacing: 2px;
+        font-size: 50px;
+        text-decoration: none;
+        color: rgb(255, 145, 0);
+    }
+    .myimage{
+        width: 39rem;
+    position: relative;
+    right: -46rem;
+    height: 143vh;
+    border-radius: 3.5rem;
+    top: 0rem;
+    }
+    .edu-skills-div {
+        height: 148rem;
+        background-image: url(/static/image/foodbg3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 262%;
+        padding-top: 4rem;
+    }
+    .edu-skill-title {
+        text-align: center;
+        font-size: 8rem;
+        position: relative;
+        top: -1.6rem;
+        color: #26ffb5;
+    }
+    .edu {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 10rem;
+        z-index: 8;
+        top: 3rem;
+        font-size: 63px;
+    }
+    .points{
+        color: rgb(83, 252, 114);
+        font-weight: bold;
+    }
+    .img-edu-skill {
+        width: 186vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 2;
+        opacity: 0.8;
+        margin: auto;
+        left: 17rem;
+        position: relative;
+        top: 10rem;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-size: 4.8rem;
+        z-index: 8;
+        font-weight: bold;
+        top: -40rem;
+        right: -10.5rem;
+    }
+    .project-div {
+        background-image: url(/static/image/b5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 111.5rem;
+        /* background-size: 103%; */
+        padding-top: 4rem;
+    }
+    .project-head {
+       /* text-align: center; */
+        font-size: 8rem;
+        position: relative;
+        top: 6.4rem;
+         width: 20vw;
+        left: 33rem;
+        display: block;
+        display: inline-block;
+        color: #26ffb5;
+    }
+    .project-list {
+        font-size: 3.79rem;
+        margin-top: 6rem;
+        position: relative;
+        left: 4rem;
+        top: 8rem;
+        font-weight: bold;
+    }
+    .project-l {
+        color: rgb(245, 88, 140);
+        margin-top: 6.8rem;
+    }
+    .footer-div {
+        height: 108.6rem;
+        display: flex;
+        display: inline-block;
+        font-size: 4.3rem;
+        background-color: black;
+    }
+    .devloper {
+        position: relative;
+        left: 9.8rem;
+        font-size: 4.3rem;
+        top: 2.3rem;
+    }
+    .socialdiv {
+        position: absolute;
+        right: 0rem;
+        left: 10rem;
+        font-size: 5.2rem;
+        margin-top: 9rem;
+    }
+    .social {
+        width: 41vw;
+    }
+    .end {
+       /* display: flex; */
+        text-align: center;
+        margin: auto;
+        position: relative;
+        /* flex-direction: column; */
+        top: 60rem;
+        display: inline-block;
+        /* width: 495vw; */
+        right: 1.4rem;
+        /* zoom: 99%; */
+        font-size: 63px;
+    }
+}
